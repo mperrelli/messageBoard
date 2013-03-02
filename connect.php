@@ -1,5 +1,5 @@
 <?php
-$connection = mysql_connect('localhost', 'perrelli', '3115');
+$connection = mysql_connect('localhost', 'dbname', 'dbpass');
 if ($connection){
 	mysql_select_db('MessageBoard') or die("No database".mysql_error());
 }
