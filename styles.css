@@ -1,0 +1,315 @@
+#admincpcontainer{
+	width:80%;
+	overflow:auto;
+	height:auto;
+	background-image:url(images/whitefader.png);
+	border:1px solid black;
+	margin:0 auto;
+}
+
+#admincpnav{
+	width:100%;
+	height:29px;
+	background-image:url(images/formtitlebg.jpg);
+	background-repeat:repeat-x;
+	background-color:#296d00;
+	text-align:center;
+	vertical-align:middle;
+}
+
+#admincpbody{
+	border:1px solid black;
+	margin:10px;
+	height:auto;
+	overflow-y:auto;
+	overflow-x:hidden;
+	background-image:url(images/catagorybarbg.jpg);
+	background-repeat:repeat-x;
+	background-color:#a56c01;
+	
+}
+
+body{
+	background-image:url(images/background.jpg);
+	background-position:top;
+	background-repeat:no-repeat;
+	background-color:#000000;
+	color:#ffffff;
+	font-family:"Trebuchet MS";
+	font-size:14px;
+}
+
+td {
+	padding:5px;
+}
+
+#header{
+	padding-left:20px;
+	font-size:18px;
+	border:1px solid black;
+	height:100px;
+	background-image:url(images/catagorybarbg.jpg);
+	background-repeat:repeat-x;
+	background-color:#a56c01;
+}
+
+#userinfo, #foot{
+	padding:0px;
+	border:1px solid black;
+	background-image:url(images/userbarbg.jpg);
+	background-repeat:repeat-x;
+}
+
+#userinfo a{
+	color:white;
+}
+
+#userinfo a:hover{
+	color:black;
+}
+
+#userinfo input{
+	width:100px;
+	border:1px solid black;
+	color:#ffffff;
+	background-color:#535353;
+}
+
+#layout_controller{
+	width:80%;
+	background-image:url(images/whitefader.png);
+}
+
+#breadcrumbs{
+	color:black;
+	margin-left:3px;
+}
+
+#breadcrumbs a{
+	color:black;
+	font-size:12px;
+}
+
+#breadcrumbs a:hover{
+	color:white;
+	font-size:12px;
+}
+
+.catagory{
+	font-weight:bolder;
+	max-width:100%;
+	height:48px;
+	background-image:url(images/catagorybarbg.jpg);
+	background-repeat:repeat-x;
+	background-color:#a56c01;
+	overflow:hidden;
+}
+
+#catagory_controller td, #form_controller{
+	width:100%;
+}
+
+#catagory_controller td, #form_controller td{
+	border:1px solid black;
+}
+
+#post{
+	width:100%;
+}
+
+#post td{
+	border:1px solid black;
+}
+
+#postuserbox{
+	vertical-align:top;
+	width:150px;
+	height:100px;
+	background-image:url(images/formtitlebg.jpg);
+	background-repeat:repeat-x;
+	background-color:#296d00;
+}
+
+#postbody{
+	position:relative;
+	vertical-align:top;
+	background-image:url(images/formbarbg.jpg);
+	background-color:#2b6d01;
+	background-repeat:repeat-x;
+}
+
+#postbody td{
+	border:0px;
+	padding:0px;
+}
+
+#posthead{
+	font-weight:bolder;
+	max-width:100%;
+	height:50px;
+	background-image:url(images/catagorybarbg.jpg);
+	background-repeat:repeat-x;
+}
+
+.postorganizer{
+	width:100%; 
+	height:100%; 
+	border:0px;
+}
+
+.postorganizer td{
+	border:0px;
+}
+
+.postbodyhead{
+	height:12px;
+}
+
+.postbodycontent{
+	
+}
+
+.postedcode{
+	border:1px solid black;
+	padding: 10px;
+	background-color:#3a9500;
+}
+
+#profile{
+	width:100%;
+}
+
+#profile td{
+	border:1px solid black;
+	padding:5px;
+}
+
+#profileheader{
+	font-weight:bolder;
+	max-width:100%;
+	height:50px;
+	background-image:url(images/catagorybarbg.jpg);
+	background-repeat:repeat-x;
+}
+
+#profileorganizer{
+	border:0px;
+	height:100%; 
+	border:0px;
+}
+
+#profileorganizer td{
+	border-top:0px;
+	border-right:0px;
+	border-left:0px;
+}
+
+.signature{
+	height:auto;
+}
+
+#reply{
+	position:relative;
+	vertical-align:top;
+	background-color:#2b6d01;
+}
+
+#reply td{
+	border:0;
+	padding:0px;
+}
+
+#replybox{
+	border:1px solid black;
+	background-image:url(images/userbarbg.jpg);
+	background-color:#454545;
+	background-repeat:repeat-x;
+	width:100%;
+}
+
+.separator{
+	background-image:url(images/catagorybarbg.jpg);
+	background-repeat:repeat-x;
+	height:12px;
+	background-position:0px,-10px;
+}
+
+.formhead{
+	background-image:url(images/formtitlebg.jpg);
+	background-repeat:repeat-x;
+}
+
+.form{
+	width:100%;
+}
+
+.formlink{
+	display:block;
+	color:#ffffff;
+	text-decoration:none;
+}
+
+.formlink:hover{
+	display:block;
+	color:#ffffff;
+	text-decoration:none;
+	background-image:url(images/overlay.png);
+}
+
+#formcommands form{
+	float:left;
+}
+
+#foot{
+	text-align:center;
+	font-size:10px;
+}
+
+#nav td{
+	border:1px solid black;
+	width:120px;
+	background-image:url(images/navbg.jpg);
+	background-repeat:repeat-x;
+	color:black;
+	padding:0px;
+}
+
+.navlink {
+	text-align:center;
+	display:block;
+	width:120px;
+	height:30px;
+	background-image:url(images/navbg.jpg);
+	background-repeat:repeat-x;
+	color:black;
+	line-height:30px;
+}
+
+.navlink:hover{
+	text-align:center;
+	display:block;
+	width:120px;
+	height:30px;
+	background-image:url(images/navbgover.jpg);
+	background-repeat:repeat-x;
+	color:white;
+	line-height:30px;
+}
+
+#catagory_controller tr, #form_controller tr{
+	background-image:url(images/formbarbg.jpg);
+	background-color:#2b6d01;
+	background-repeat:repeat-x;
+	}
+
+/*#catagory_controller tr:nth-child(odd) {
+	background-image:url(images/formbarbg.jpg);
+	background-color:#2b6d01;
+	background-repeat:repeat-x;
+	}
+	
+#catagory_controller tr:nth-child(even) { 
+	background-image:url(images/formbarbg2.jpg);
+	background-color:#1f5300;
+	background-repeat:repeat-x;
+	}*/
